@@ -18,11 +18,36 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Bellatrix.Allure\Bellatrix.Results.Allure.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.Api\Bellatrix.API.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.AppInsights\Bellatrix.AppInsights.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.AWS\Bellatrix.AWS.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.BugReporting\Bellatrix.BugReporting.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.CognitiveServices\Bellatrix.CognitiveServices.csproj" />
     <ProjectReference Include="..\..\src\Bellatrix.Core\Bellatrix.Core.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.Desktop\Bellatrix.Desktop.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.DynamicTestCases\Bellatrix.DynamicTestCases.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.Email\Bellatrix.Email.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.ImageRecognition\Bellatrix.ImageRecognition.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.KeyVault\Bellatrix.KeyVault.csproj" />
     <ProjectReference Include="..\..\src\Bellatrix.Layout\Bellatrix.Layout.csproj" />
+    <ProjectReference Include="..\..\src\Bellatrix.Mobile\Bellatrix.Mobile.csproj" />
     <ProjectReference Include="..\..\src\Bellatrix.Plugins.Screenshots\Bellatrix.Plugins.Screenshots.csproj" />
     <ProjectReference Include="..\..\src\Bellatrix.Plugins.Video\Bellatrix.Plugins.Video.csproj" />
     <ProjectReference Include="..\..\src\Bellatrix.Web\Bellatrix.Web.csproj" />
+    <ProjectReference Include="..\..\tests\Bellatrix.API.tests\Bellatrix.API.Tests.csproj" />
+    <ProjectReference Include="..\..\tests\Bellatrix.Desktop.tests\Bellatrix.Desktop.Tests.csproj" />
+    <ProjectReference Include="..\..\tests\Bellatrix.Mobile.Android.tests\Bellatrix.Mobile.Android.Tests.csproj" />
+    <ProjectReference Include="..\..\tests\Bellatrix.Mobile.IOS.tests\Bellatrix.Mobile.IOS.Tests.csproj" />
+    <ProjectReference Include="..\..\tests\Bellatrix.Web.tests\Bellatrix.Web.Tests.csproj" />
+    <ProjectReference Include="..\Bellatrix.Android.GettingStarted\Bellatrix.Android.GettingStarted.csproj" />
+    <ProjectReference Include="..\Bellatrix.API.GettingStarted\Bellatrix.API.GettingStarted.csproj" />
+    <ProjectReference Include="..\Bellatrix.API.Tests\Bellatrix.API.Tests.csproj" />
+    <ProjectReference Include="..\Bellatrix.Desktop.GettingStarted\Bellatrix.Desktop.GettingStarted.csproj" />
+    <ProjectReference Include="..\Bellatrix.Desktop.Tests\Bellatrix.Desktop.Tests.csproj" />
+    <ProjectReference Include="..\Bellatrix.IOS.GettingStarted\Bellatrix.IOS.GettingStarted.csproj" />
+    <ProjectReference Include="..\Bellatrix.Mobile.Tests\Bellatrix.Mobile.Tests.csproj" />
+    <ProjectReference Include="..\Bellatrix.Web.GettingStarted\Bellatrix.Web.GettingStarted.csproj" />
   </ItemGroup>
 
   <ItemGroup>
