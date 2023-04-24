@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1.31</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <LangVersion>10.0</LangVersion>
     <Configurations>DEBUG;STAGE;QA;LOCAL</Configurations>
   </PropertyGroup>
